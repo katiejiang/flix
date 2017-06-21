@@ -5,7 +5,6 @@
 //  Created by Katie Jiang on 6/21/17.
 //  Copyright © 2017 Katie Jiang. All rights reserved.
 //
-
 import UIKit
 
 class NowPlayingViewController: UIViewController, UITableViewDataSource {
@@ -13,7 +12,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
     
     var movies: [[String: Any]] = []
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -49,9 +48,9 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         
         return cell
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
+    
 }

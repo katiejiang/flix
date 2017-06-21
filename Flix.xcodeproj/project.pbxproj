@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF9B4ED11EFB2C77008B6326 /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9B4ED01EFB2C77008B6326 /* NowPlayingViewController.swift */; };
+		DF9B4ED31EFB2C9D008B6326 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9B4ED21EFB2C9D008B6326 /* MovieCell.swift */; };
 		DFCF78E11EFB115700687F3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCF78E01EFB115700687F3C /* AppDelegate.swift */; };
-		DFCF78E31EFB115700687F3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCF78E21EFB115700687F3C /* ViewController.swift */; };
 		DFCF78E61EFB115700687F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCF78E41EFB115700687F3C /* Main.storyboard */; };
 		DFCF78E81EFB115700687F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCF78E71EFB115700687F3C /* Assets.xcassets */; };
 		DFCF78EB1EFB115700687F3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCF78E91EFB115700687F3C /* LaunchScreen.storyboard */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF9B4ED01EFB2C77008B6326 /* NowPlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NowPlayingViewController.swift; path = ../../flix/Flix/NowPlayingViewController.swift; sourceTree = "<group>"; };
+		DF9B4ED21EFB2C9D008B6326 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		DFCF78DD1EFB115700687F3C /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCF78E01EFB115700687F3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DFCF78E21EFB115700687F3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DFCF78E51EFB115700687F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFCF78E71EFB115700687F3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFCF78EA1EFB115700687F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +99,9 @@
 		DFCF78DF1EFB115700687F3C /* Flix */ = {
 			isa = PBXGroup;
 			children = (
+				DF9B4ED01EFB2C77008B6326 /* NowPlayingViewController.swift */,
+				DF9B4ED21EFB2C9D008B6326 /* MovieCell.swift */,
 				DFCF78E01EFB115700687F3C /* AppDelegate.swift */,
-				DFCF78E21EFB115700687F3C /* ViewController.swift */,
 				DFCF78E41EFB115700687F3C /* Main.storyboard */,
 				DFCF78E71EFB115700687F3C /* Assets.xcassets */,
 				DFCF78E91EFB115700687F3C /* LaunchScreen.storyboard */,
@@ -262,8 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFCF78E31EFB115700687F3C /* ViewController.swift in Sources */,
+				DF9B4ED11EFB2C77008B6326 /* NowPlayingViewController.swift in Sources */,
 				DFCF78E11EFB115700687F3C /* AppDelegate.swift in Sources */,
+				DF9B4ED31EFB2C9D008B6326 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +520,7 @@
 				DFCF79071EFB115700687F3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFCF79081EFB115700687F3C /* Build configuration list for PBXNativeTarget "FlixTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				DFCF790A1EFB115700687F3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFCF790B1EFB115700687F3C /* Build configuration list for PBXNativeTarget "FlixUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				DFCF790D1EFB115700687F3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
