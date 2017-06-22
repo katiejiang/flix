@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F2073" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F2073" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vVP-RH-OjT">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Now Playing View Controller-->
+        <!--Movies-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="NowPlayingViewController" customModule="Flix" customModuleProvider="target" sceneMemberID="viewController">
@@ -33,7 +33,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="173.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qFb-WC-ulv">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qFb-WC-ulv">
                                                     <rect key="frame" x="8" y="9" width="120" height="149"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.67597098571683567" green="0.92627301285227648" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -58,6 +58,7 @@
                                             <outlet property="overviewLabel" destination="Gb0-Ci-vHy" id="T5f-dk-UZZ"/>
                                             <outlet property="posterImageView" destination="qFb-WC-ulv" id="YCT-tQ-ReA"/>
                                             <outlet property="titleLabel" destination="AOW-ik-JUj" id="g1J-f4-oHT"/>
+                                            <segue destination="K0E-ll-cg0" kind="show" id="7Bm-x5-Ya4"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -65,11 +66,86 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Movies" id="V9v-yt-GyW"/>
                     <connections>
                         <outlet property="tableView" destination="guc-1v-9HW" id="riV-Ud-8RB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="38.23088455772114"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="wzJ-bN-bfe">
+            <objects>
+                <viewController id="K0E-ll-cg0" customClass="DetailViewController" customModule="Flix" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ijS-bw-5Lb"/>
+                        <viewControllerLayoutGuide type="bottom" id="X7Z-J3-vbA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i3D-ed-fRq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0rK-ww-lC5">
+                                <rect key="frame" x="0.0" y="64" width="375" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Overview" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Enw-7J-qKD">
+                                <rect key="frame" x="16" y="407" width="343" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O0b-Fc-nC3">
+                                <rect key="frame" x="16" y="228" width="134" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Release Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="988-Vc-Rp7">
+                                <rect key="frame" x="165" y="345" width="193" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wonder Woman" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sLu-aa-C5e">
+                                <rect key="frame" x="165" y="316" width="193" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="backdropImageView" destination="0rK-ww-lC5" id="gaf-Rx-LmI"/>
+                        <outlet property="overviewLabel" destination="Enw-7J-qKD" id="0lp-Ej-Ghz"/>
+                        <outlet property="posterImageView" destination="O0b-Fc-nC3" id="wfu-Fh-gj3"/>
+                        <outlet property="releaseDateLabel" destination="988-Vc-Rp7" id="xud-SP-PcM"/>
+                        <outlet property="titleLabel" destination="sLu-aa-C5e" id="xpH-oP-dl9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bC9-ZR-sak" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1888.8" y="37.331334332833585"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4xm-iJ-bN7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vVP-RH-OjT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fy7-25-l4a">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ay4-Nj-WCx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vFB-Zw-8Vu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
         </scene>
