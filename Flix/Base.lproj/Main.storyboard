@@ -122,6 +122,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9QX-mc-B9o">
+                                <rect key="frame" x="16" y="228" width="134" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="6if-gf-r4H" kind="presentation" id="etG-5i-SrV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -136,6 +143,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bC9-ZR-sak" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2828" y="37.331334332833585"/>
+        </scene>
+        <!--Trailer View Controller-->
+        <scene sceneID="hSA-PA-OqB">
+            <objects>
+                <viewController id="6if-gf-r4H" customClass="TrailerViewController" customModule="Flix" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="88P-2p-IxS"/>
+                        <viewControllerLayoutGuide type="bottom" id="71h-D2-Dz5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cfR-GC-Kjb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJs-2N-rtJ">
+                                <rect key="frame" x="24" y="28" width="48" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <action selector="dismissModal:" destination="6if-gf-r4H" eventType="touchUpInside" id="RD4-18-CU6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5R8-bX-gXC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3756" y="37.331334332833585"/>
         </scene>
         <!--Now Playing-->
         <scene sceneID="4xm-iJ-bN7">
@@ -254,6 +289,6 @@
         <image name="ticket_tabbar_icon" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="GHq-m9-u9Q"/>
+        <segue reference="7Bm-x5-Ya4"/>
     </inferredMetricsTieBreakers>
 </document>
