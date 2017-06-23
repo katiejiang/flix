@@ -15,6 +15,16 @@
 		DFA662641EFC8DB700EDB696 /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA662631EFC8DB700EDB696 /* PopularViewController.swift */; };
 		DFA662661EFC8E5900EDB696 /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA662651EFC8E5900EDB696 /* PosterCell.swift */; };
 		DFA662681EFC9CCB00EDB696 /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA662671EFC9CCB00EDB696 /* TrailerViewController.swift */; };
+		DFAB9F7D1EFDDA3F00DE8553 /* HKGrotesk-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFAB9F731EFDDA3F00DE8553 /* HKGrotesk-Bold.otf */; };
+		DFAB9F7E1EFDDA3F00DE8553 /* HKGrotesk-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFAB9F741EFDDA3F00DE8553 /* HKGrotesk-BoldItalic.otf */; };
+		DFAB9F7F1EFDDA3F00DE8553 /* HKGrotesk-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFAB9F751EFDDA3F00DE8553 /* HKGrotesk-Italic.otf */; };
+		DFAB9F801EFDDA3F00DE8553 /* HKGrotesk-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFAB9F761EFDDA3F00DE8553 /* HKGrotesk-Light.otf */; };
+		DFAB9F811EFDDA3F00DE8553 /* HKGrotesk-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFAB9F771EFDDA3F00DE8553 /* HKGrotesk-LightItalic.otf */; };
+		DFAB9F821EFDDA3F00DE8553 /* HKGrotesk-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFAB9F781EFDDA3F00DE8553 /* HKGrotesk-Medium.otf */; };
+		DFAB9F831EFDDA3F00DE8553 /* HKGrotesk-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFAB9F791EFDDA3F00DE8553 /* HKGrotesk-MediumItalic.otf */; };
+		DFAB9F841EFDDA3F00DE8553 /* HKGrotesk-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFAB9F7A1EFDDA3F00DE8553 /* HKGrotesk-Regular.otf */; };
+		DFAB9F851EFDDA3F00DE8553 /* HKGrotesk-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFAB9F7B1EFDDA3F00DE8553 /* HKGrotesk-SemiBold.otf */; };
+		DFAB9F861EFDDA3F00DE8553 /* HKGrotesk-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFAB9F7C1EFDDA3F00DE8553 /* HKGrotesk-SemiBoldItalic.otf */; };
 		DFCF78E11EFB115700687F3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCF78E01EFB115700687F3C /* AppDelegate.swift */; };
 		DFCF78E61EFB115700687F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCF78E41EFB115700687F3C /* Main.storyboard */; };
 		DFCF78E81EFB115700687F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCF78E71EFB115700687F3C /* Assets.xcassets */; };
@@ -57,6 +67,16 @@
 		DFA662631EFC8DB700EDB696 /* PopularViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
 		DFA662651EFC8E5900EDB696 /* PosterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
 		DFA662671EFC9CCB00EDB696 /* TrailerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
+		DFAB9F731EFDDA3F00DE8553 /* HKGrotesk-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-Bold.otf"; path = "Fonts/HKGrotesk-Bold.otf"; sourceTree = "<group>"; };
+		DFAB9F741EFDDA3F00DE8553 /* HKGrotesk-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-BoldItalic.otf"; path = "Fonts/HKGrotesk-BoldItalic.otf"; sourceTree = "<group>"; };
+		DFAB9F751EFDDA3F00DE8553 /* HKGrotesk-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-Italic.otf"; path = "Fonts/HKGrotesk-Italic.otf"; sourceTree = "<group>"; };
+		DFAB9F761EFDDA3F00DE8553 /* HKGrotesk-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-Light.otf"; path = "Fonts/HKGrotesk-Light.otf"; sourceTree = "<group>"; };
+		DFAB9F771EFDDA3F00DE8553 /* HKGrotesk-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-LightItalic.otf"; path = "Fonts/HKGrotesk-LightItalic.otf"; sourceTree = "<group>"; };
+		DFAB9F781EFDDA3F00DE8553 /* HKGrotesk-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-Medium.otf"; path = "Fonts/HKGrotesk-Medium.otf"; sourceTree = "<group>"; };
+		DFAB9F791EFDDA3F00DE8553 /* HKGrotesk-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-MediumItalic.otf"; path = "Fonts/HKGrotesk-MediumItalic.otf"; sourceTree = "<group>"; };
+		DFAB9F7A1EFDDA3F00DE8553 /* HKGrotesk-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-Regular.otf"; path = "Fonts/HKGrotesk-Regular.otf"; sourceTree = "<group>"; };
+		DFAB9F7B1EFDDA3F00DE8553 /* HKGrotesk-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-SemiBold.otf"; path = "Fonts/HKGrotesk-SemiBold.otf"; sourceTree = "<group>"; };
+		DFAB9F7C1EFDDA3F00DE8553 /* HKGrotesk-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-SemiBoldItalic.otf"; path = "Fonts/HKGrotesk-SemiBoldItalic.otf"; sourceTree = "<group>"; };
 		DFCF78DD1EFB115700687F3C /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCF78E01EFB115700687F3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFCF78E51EFB115700687F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -122,6 +142,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DF49F5501EFDD664003EA6ED /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DFAB9F731EFDDA3F00DE8553 /* HKGrotesk-Bold.otf */,
+				DFAB9F741EFDDA3F00DE8553 /* HKGrotesk-BoldItalic.otf */,
+				DFAB9F751EFDDA3F00DE8553 /* HKGrotesk-Italic.otf */,
+				DFAB9F761EFDDA3F00DE8553 /* HKGrotesk-Light.otf */,
+				DFAB9F771EFDDA3F00DE8553 /* HKGrotesk-LightItalic.otf */,
+				DFAB9F781EFDDA3F00DE8553 /* HKGrotesk-Medium.otf */,
+				DFAB9F791EFDDA3F00DE8553 /* HKGrotesk-MediumItalic.otf */,
+				DFAB9F7A1EFDDA3F00DE8553 /* HKGrotesk-Regular.otf */,
+				DFAB9F7B1EFDDA3F00DE8553 /* HKGrotesk-SemiBold.otf */,
+				DFAB9F7C1EFDDA3F00DE8553 /* HKGrotesk-SemiBoldItalic.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		DF6B88771EFB42CC00C6B7C2 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +182,7 @@
 		DFCF78D41EFB115700687F3C = {
 			isa = PBXGroup;
 			children = (
+				DF49F5501EFDD664003EA6ED /* Fonts */,
 				DFCF78DF1EFB115700687F3C /* Flix */,
 				DFCF78F41EFB115700687F3C /* FlixTests */,
 				DFCF78FF1EFB115700687F3C /* FlixUITests */,
@@ -315,8 +353,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFAB9F7E1EFDDA3F00DE8553 /* HKGrotesk-BoldItalic.otf in Resources */,
+				DFAB9F821EFDDA3F00DE8553 /* HKGrotesk-Medium.otf in Resources */,
 				DFCF78EB1EFB115700687F3C /* LaunchScreen.storyboard in Resources */,
+				DFAB9F851EFDDA3F00DE8553 /* HKGrotesk-SemiBold.otf in Resources */,
+				DFAB9F801EFDDA3F00DE8553 /* HKGrotesk-Light.otf in Resources */,
+				DFAB9F7D1EFDDA3F00DE8553 /* HKGrotesk-Bold.otf in Resources */,
+				DFAB9F831EFDDA3F00DE8553 /* HKGrotesk-MediumItalic.otf in Resources */,
 				DFCF78E81EFB115700687F3C /* Assets.xcassets in Resources */,
+				DFAB9F811EFDDA3F00DE8553 /* HKGrotesk-LightItalic.otf in Resources */,
+				DFAB9F7F1EFDDA3F00DE8553 /* HKGrotesk-Italic.otf in Resources */,
+				DFAB9F861EFDDA3F00DE8553 /* HKGrotesk-SemiBoldItalic.otf in Resources */,
+				DFAB9F841EFDDA3F00DE8553 /* HKGrotesk-Regular.otf in Resources */,
 				DFCF78E61EFB115700687F3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
