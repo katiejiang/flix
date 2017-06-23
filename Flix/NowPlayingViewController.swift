@@ -6,7 +6,6 @@
 //  Copyright © 2017 Katie Jiang. All rights reserved.
 //
 import UIKit
-import AlamofireImage
 
 class NowPlayingViewController: UIViewController, UITableViewDataSource {
     
