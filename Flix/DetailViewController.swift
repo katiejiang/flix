@@ -15,6 +15,8 @@ enum MovieKeys {
     static let overview = "overview"
     static let backdropPath = "backdrop_path"
     static let posterPath = "poster_path"
+    static let id = "id"
+    
 }
 
 class DetailViewController: UIViewController {
@@ -53,14 +55,12 @@ class DetailViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        let vc = segue.destination as! TrailerViewController
+        if let movie = movie {
+            let movieId = String(describing: movie[MovieKeys.id]!)
+            vc.movieId = movieId
+        }
     }
-    */
 
 }
