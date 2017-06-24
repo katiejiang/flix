@@ -25,6 +25,7 @@
 		DFAB9F841EFDDA3F00DE8553 /* HKGrotesk-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFAB9F7A1EFDDA3F00DE8553 /* HKGrotesk-Regular.otf */; };
 		DFAB9F851EFDDA3F00DE8553 /* HKGrotesk-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFAB9F7B1EFDDA3F00DE8553 /* HKGrotesk-SemiBold.otf */; };
 		DFAB9F861EFDDA3F00DE8553 /* HKGrotesk-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFAB9F7C1EFDDA3F00DE8553 /* HKGrotesk-SemiBoldItalic.otf */; };
+		DFAB9F881EFDE8D200DE8553 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAB9F871EFDE8D200DE8553 /* SearchViewController.swift */; };
 		DFCF78E11EFB115700687F3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCF78E01EFB115700687F3C /* AppDelegate.swift */; };
 		DFCF78E61EFB115700687F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCF78E41EFB115700687F3C /* Main.storyboard */; };
 		DFCF78E81EFB115700687F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCF78E71EFB115700687F3C /* Assets.xcassets */; };
@@ -77,6 +78,7 @@
 		DFAB9F7A1EFDDA3F00DE8553 /* HKGrotesk-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-Regular.otf"; path = "Fonts/HKGrotesk-Regular.otf"; sourceTree = "<group>"; };
 		DFAB9F7B1EFDDA3F00DE8553 /* HKGrotesk-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-SemiBold.otf"; path = "Fonts/HKGrotesk-SemiBold.otf"; sourceTree = "<group>"; };
 		DFAB9F7C1EFDDA3F00DE8553 /* HKGrotesk-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-SemiBoldItalic.otf"; path = "Fonts/HKGrotesk-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		DFAB9F871EFDE8D200DE8553 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		DFCF78DD1EFB115700687F3C /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCF78E01EFB115700687F3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFCF78E51EFB115700687F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				DF6B887F1EFB43D900C6B7C2 /* DetailViewController.swift */,
 				DFA662631EFC8DB700EDB696 /* PopularViewController.swift */,
 				DFA662671EFC9CCB00EDB696 /* TrailerViewController.swift */,
+				DFAB9F871EFDE8D200DE8553 /* SearchViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -530,6 +533,7 @@
 			files = (
 				DF9B4ED11EFB2C77008B6326 /* NowPlayingViewController.swift in Sources */,
 				DFA662641EFC8DB700EDB696 /* PopularViewController.swift in Sources */,
+				DFAB9F881EFDE8D200DE8553 /* SearchViewController.swift in Sources */,
 				DFA662681EFC9CCB00EDB696 /* TrailerViewController.swift in Sources */,
 				DFA662661EFC8E5900EDB696 /* PosterCell.swift in Sources */,
 				DFCF78E11EFB115700687F3C /* AppDelegate.swift in Sources */,
