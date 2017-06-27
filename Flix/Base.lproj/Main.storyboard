@@ -282,7 +282,7 @@
                                     <textInputTraits key="textInputTraits"/>
                                 </searchBar>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="176" id="Nms-48-dY2" customClass="MovieCell" customModule="Flix">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="176" id="Nms-48-dY2" customClass="MovieCell" customModule="Flix">
                                         <rect key="frame" x="0.0" y="72" width="375" height="176"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Nms-48-dY2" id="iOg-ee-Wa1">
@@ -321,6 +321,7 @@
                     <navigationItem key="navigationItem" id="G2W-lU-sLR"/>
                     <connections>
                         <outlet property="searchBar" destination="mxR-Cr-IjO" id="VlI-VJ-0VO"/>
+                        <outlet property="tableView" destination="mrc-zB-VrN" id="kZ8-cx-lXF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rGd-BP-KKY" userLabel="First Responder" sceneMemberID="firstResponder"/>
