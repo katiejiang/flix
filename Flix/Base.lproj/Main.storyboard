@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F2073" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4VO-9A-wcf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F2073" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4VO-9A-wcf">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -29,10 +29,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="174" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="guc-1v-9HW">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="174" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="guc-1v-9HW">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="174" id="W2l-ba-Rfu" customClass="MovieCell" customModule="Flix">
                                         <rect key="frame" x="0.0" y="28" width="375" height="174"/>
@@ -41,26 +40,43 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="173.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qFb-WC-ulv">
-                                                    <rect key="frame" x="8" y="3" width="120" height="166"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qFb-WC-ulv">
+                                                    <rect key="frame" x="8" y="8" width="120" height="165"/>
                                                     <color key="backgroundColor" red="0.67597098571683567" green="0.92627301285227648" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="165" id="MWL-2w-X2i"/>
+                                                        <constraint firstAttribute="width" constant="120" id="eBF-bv-51N"/>
+                                                    </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wonder Woman: A Sequel to the First Awesome Movie" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOW-ik-JUj">
-                                                    <rect key="frame" x="139" y="9" width="224" height="44"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wonder Woman: A Sequel to the First Awesome Movie" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOW-ik-JUj">
+                                                    <rect key="frame" x="136" y="8" width="231" height="41"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" name="HKGrotesk-Bold" family="HK Grotesk" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="An Amazon princess comes to the world of Man to become the greatest of the female superheroes." translatesAutoresizingMaskIntoConstraints="NO" id="yiR-Lg-SNF">
-                                                    <rect key="frame" x="136" y="53" width="227" height="99"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="An Amazon princess comes to the world of Man to become the greatest of the female superheroes." translatesAutoresizingMaskIntoConstraints="NO" id="yiR-Lg-SNF">
+                                                    <rect key="frame" x="136" y="57" width="231" height="109"/>
+                                                    <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" name="HKGrotesk-Regular" family="HK Grotesk" pointSize="13"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="AOW-ik-JUj" firstAttribute="leading" secondItem="qFb-WC-ulv" secondAttribute="trailing" constant="8" id="9lc-DE-U24"/>
+                                                <constraint firstItem="qFb-WC-ulv" firstAttribute="top" secondItem="ig3-Ff-U2u" secondAttribute="top" constant="8" id="KQe-5U-hgE"/>
+                                                <constraint firstItem="qFb-WC-ulv" firstAttribute="leading" secondItem="ig3-Ff-U2u" secondAttribute="leading" constant="8" id="Oef-ht-48P"/>
+                                                <constraint firstAttribute="trailing" secondItem="AOW-ik-JUj" secondAttribute="trailing" constant="8" id="aU4-KO-0hb"/>
+                                                <constraint firstItem="yiR-Lg-SNF" firstAttribute="leading" secondItem="qFb-WC-ulv" secondAttribute="trailing" constant="8" id="ppo-KI-Gca"/>
+                                                <constraint firstAttribute="trailing" secondItem="yiR-Lg-SNF" secondAttribute="trailing" constant="8" id="tSZ-4B-uKc"/>
+                                                <constraint firstItem="AOW-ik-JUj" firstAttribute="top" secondItem="ig3-Ff-U2u" secondAttribute="top" constant="8" id="xp8-EJ-vCQ"/>
+                                                <constraint firstItem="yiR-Lg-SNF" firstAttribute="top" secondItem="AOW-ik-JUj" secondAttribute="bottom" constant="8" id="y1s-dz-u9L"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="yiR-Lg-SNF" secondAttribute="bottom" constant="8" id="I6C-7X-pQc"/>
+                                        </constraints>
                                         <connections>
                                             <outlet property="overviewTextView" destination="yiR-Lg-SNF" id="lkc-NQ-pBf"/>
                                             <outlet property="posterImageView" destination="qFb-WC-ulv" id="YCT-tQ-ReA"/>
@@ -77,6 +93,12 @@
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="guc-1v-9HW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1bm-qK-kMd"/>
+                            <constraint firstAttribute="trailing" secondItem="guc-1v-9HW" secondAttribute="trailing" id="6nK-UZ-Bmv"/>
+                            <constraint firstAttribute="bottom" secondItem="guc-1v-9HW" secondAttribute="bottom" id="fmb-od-U9e"/>
+                            <constraint firstItem="guc-1v-9HW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wVH-xf-wAd"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Now Playing" id="V9v-yt-GyW"/>
                     <connections>
@@ -86,7 +108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1911.2" y="38.23088455772114"/>
+            <point key="canvasLocation" x="1910.5" y="37.5"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="wzJ-bN-bfe">
@@ -393,6 +415,6 @@
         <image name="ticket_tabbar_icon" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="DQI-km-BiU"/>
+        <segue reference="GHq-m9-u9Q"/>
     </inferredMetricsTieBreakers>
 </document>
